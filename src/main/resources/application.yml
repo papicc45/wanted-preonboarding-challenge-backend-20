@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: marketapi
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: 'jdbc:h2:wanted:marketapi'
+    username: sima
+    password: 1234
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        dialect: org.hibernate.dialect.H2Dialect
+server:
+  port: 8080
