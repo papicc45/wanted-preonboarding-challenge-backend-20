@@ -1,4 +1,4 @@
-package com.wanted.marketapi.dto;
+package com.wanted.marketapi.dto.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,7 +7,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class UserRequestDTO {
+public class UserResponseDTO {
+    private long id;
     private String loginId;
     private String password;
 }

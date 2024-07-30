@@ -1,7 +1,6 @@
-package com.wanted.marketapi.dto;
+package com.wanted.marketapi.dto.product;
 
 import com.wanted.marketapi.domain.ProductStatus;
-import jakarta.persistence.SqlResultSetMapping;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

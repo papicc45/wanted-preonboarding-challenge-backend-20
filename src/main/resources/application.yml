@@ -3,7 +3,7 @@ spring:
     name: marketapi
   datasource:
     driver-class-name: org.h2.Driver
-    url: 'jdbc:h2:wanted:marketapi'
+    url: 'jdbc:h2:mem:wanted_marketapi'
     username: sima
     password: 1234
   h2:

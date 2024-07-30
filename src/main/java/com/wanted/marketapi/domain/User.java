@@ -9,7 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 @Getter
 @Setter
-@Table
+@Table(name = "users")
 public class User {
 
     @Id
@@ -21,6 +21,4 @@ public class User {
 
     @Column(nullable = false)
     private String password;
-
-
 }

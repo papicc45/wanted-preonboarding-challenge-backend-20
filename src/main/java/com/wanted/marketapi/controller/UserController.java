@@ -1,10 +1,9 @@
 package com.wanted.marketapi.controller;
 
-import com.wanted.marketapi.dto.UserRequestDTO;
-import com.wanted.marketapi.dto.UserResponseDTO;
+import com.wanted.marketapi.dto.user.UserRequestDTO;
+import com.wanted.marketapi.dto.user.UserResponseDTO;
 import com.wanted.marketapi.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

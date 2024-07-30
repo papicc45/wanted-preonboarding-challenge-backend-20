@@ -1,8 +1,8 @@
 package com.wanted.marketapi.mapper;
 
 import com.wanted.marketapi.domain.User;
-import com.wanted.marketapi.dto.UserRequestDTO;
-import com.wanted.marketapi.dto.UserResponseDTO;
+import com.wanted.marketapi.dto.user.UserRequestDTO;
+import com.wanted.marketapi.dto.user.UserResponseDTO;
 import org.mapstruct.Builder;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

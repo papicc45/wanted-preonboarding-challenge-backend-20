@@ -22,10 +22,10 @@ public class Product {
     private int price;
 
     @Column(nullable = false)
+    @Enumerated(EnumType.STRING)
     private ProductStatus productStatus;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
-    @Column(nullable = false)
     private User user;
 }

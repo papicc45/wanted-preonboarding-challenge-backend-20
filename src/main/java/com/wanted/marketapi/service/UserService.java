@@ -1,8 +1,8 @@
 package com.wanted.marketapi.service;
 
 import com.wanted.marketapi.domain.User;
-import com.wanted.marketapi.dto.UserRequestDTO;
-import com.wanted.marketapi.dto.UserResponseDTO;
+import com.wanted.marketapi.dto.user.UserRequestDTO;
+import com.wanted.marketapi.dto.user.UserResponseDTO;
 import com.wanted.marketapi.mapper.UserMapper;
 import com.wanted.marketapi.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
@@ -15,6 +15,7 @@ public class UserService {
 
     @Autowired
     private UserRepository userRepository;
+
     private final UserMapper userMapper;
 
     public UserResponseDTO insertUser(UserRequestDTO userRequestDTO) {
