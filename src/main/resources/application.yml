@@ -21,3 +21,6 @@ spring:
         dialect: org.hibernate.dialect.H2Dialect
 server:
   port: 8080
+
+jwt:
+  tokenExpiration: 3600000

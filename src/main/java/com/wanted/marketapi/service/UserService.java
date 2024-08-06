@@ -22,4 +22,9 @@ public class UserService {
         User user = userRepository.save(userMapper.dtoToUser(userRequestDTO));
         return userMapper.userToDTO(user);
     }
+
+    public UserResponseDTO loadUserByUserLoginId(String userLoginId) {
+        User user = userRepository.findByLoginId(userLoginId);
+        return userMapper.userToDTO(user);
+    }
 }
